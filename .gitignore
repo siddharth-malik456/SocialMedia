@@ -1,0 +1,81 @@
+# Node.js dependencies
+node_modules/
+
+# Vite build output
+/dist/
+
+# .env files (contains sensitive information, such as API keys)
+.env*
+
+# Log files
+*.log
+
+# User-specific files
+npm-debug.log
+yarn-error.log
+
+# macOS
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.compiled.js
+
+# Build artifacts
+/build/
+/out/
+
+# Environment variables file
+.env.local
+
+# Ignore generated files by your editor
+.idea
+.vscode
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore TypeScript and JavaScript compiled files
+*.js
+*.jsx
+*.ts
+*.tsx
+
+# Ignore .DS_Store files created by macOS
+.DS_Store
+
+# Ignore Vite cache
+node_modules/.vite
+
+# Ignore local development environment files
+.local/
+
+# Ignore environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Ignore pnpm lock file
+pnpm-lock.yaml
+
+# Ignore Next.js build output
+.next/
+
+# Ignore Firebase configuration files
+firebase.json
+firebase-debug.log
